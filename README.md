@@ -31,6 +31,7 @@ Match One (Psythyst Edition) shows
 
 ### Recommendation: Follow this tutorial in a new unity project and import: https://raw.githubusercontent.com/Psythyst/Entitas-Match-One/develop/Assets/PsythystUnity-Entitas.unitypackage
 
+### You'll need to import Entitas separately in a new project.
 
 ---
 
