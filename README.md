@@ -25,6 +25,13 @@ Match One (Psythyst Edition) shows
 
 ![Match One](https://raw.githubusercontent.com/sschmid/Entitas-CSharp/develop/Readme/Images/Match-One.png)
 
+# Tutorial:-
+
+## Make sure your .NET version is set to .NET 4.6 in your player settings!
+
+### Recommendation: Follow this tutorial in a new unity project and import: https://raw.githubusercontent.com/Psythyst/Entitas-Match-One/develop/Assets/PsythystUnity-Entitas.unitypackage
+
+
 ---
 
 ### Create a Context Definition
@@ -57,8 +64,6 @@ In the field ```Component Name```, give your component a name such as "Color" wi
 
 ---
 
-### Recommendation: Follow this tutorial in a new unity project and import: https://raw.githubusercontent.com/Psythyst/Entitas-Match-One/develop/Assets/PsythystUnity-Entitas.unitypackage
-
 ### Create Component Member(s)
 
 Add a new member by clicking the ```"+"``` button then select the icon beside ```Type```. This dropdown is asking us whether we want to input the type by hand such as ```int``` / ```System.Int32``` or select a ScriptableObject ```Variable```. The Entitas-Match-One example comes with the full edition of Psythyst Unity Edition and includes many common member types already defined. Having to type these out every time can be annoying and error prone since we're dealing with strings; Variables help prevent mistypes.
@@ -88,7 +93,7 @@ It comes in two "flavours", default and debug which outputs code and the latter 
 
 Now, Add your ```Contexts``` and ```Components``` to your Project Definition and select the default Project Unit Definition.
 
-Double click the ```Project Unit Definition``` field and it will take to the asset instance. In the Entitas-Match-One example I've changed the default generation path to be ```Assets/Sources/Generated``` to match the original project as much as possible. By default it is set to ```Assets/Generated```. (If you started in a new unity project it will be set to the default, so this part can be skipped)
+Double click the ```Project Unit Definition``` field and it will take to the asset instance. In the Entitas-Match-One example I've changed the default generation path to be ```Assets/Sources/Generated``` to match the original project as much as possible. By default it is set to ```Assets/Generated```(If you started in a new unity project it will be set to the default, so this part can be skipped).
 
 We need to change it because if we don't it will overwrite our Entitas-Match-One generated code (remember to change it back later if you want to generate the Match-One definitions)
 
