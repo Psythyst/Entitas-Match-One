@@ -1,0 +1,18 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 54659211, guid: 015d6ca0241e0574ea602c32f9a871ae, type: 3}
+  m_Name: Default_PostProcessor_CleanTargetDirectory
+  m_EditorClassIdentifier: 
+  Enabled: 1
+  Folder:
+    UseConstant: 0
+    ConstantValue: Assets/Generated
+    Variable: {fileID: 11400000, guid: f60f7c236f430ab4e8439189c0fc7f51, type: 2}
