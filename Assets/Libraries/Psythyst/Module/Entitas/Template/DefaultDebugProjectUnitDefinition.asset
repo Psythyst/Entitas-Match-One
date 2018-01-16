@@ -9,7 +9,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 1767896947, guid: d81e0835a4fdc8644a46f90b22cb5b62, type: 3}
-  m_Name: DefaultProjectUnitDefinition
+  m_Name: DefaultDebugProjectUnitDefinition
   m_EditorClassIdentifier: 
   OverrideGeneratorOrder: 0
   OverridePostProcessorOrder: 0
@@ -31,8 +31,5 @@ MonoBehaviour:
   - {fileID: 11400000, guid: 16971b83fec11e0458df007e4921314f, type: 2}
   - {fileID: 11400000, guid: 11839bc839052f5488602a40e25a0aaf, type: 2}
   PostProcessorDefinitionList:
-  - {fileID: 11400000, guid: da73ab78ea3ce784eada601a4050437f, type: 2}
-  - {fileID: 11400000, guid: 45828a57010fd8149817eba27e4444f8, type: 2}
-  - {fileID: 11400000, guid: 27692eeefd1c0d74eb023b969354e85e, type: 2}
-  - {fileID: 11400000, guid: 7809a922137135c4baa561b5ec316a6d, type: 2}
-  - {fileID: 11400000, guid: 36e99e40fd4c6b24890824533060edbe, type: 2}
+  - {fileID: 11400000, guid: 7f8584ad25c146f4ab6b7819e549b9e2, type: 2}
+  - {fileID: 11400000, guid: 351e09cad72ad9a469d54d2529fd4053, type: 2}
